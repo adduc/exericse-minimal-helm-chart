@@ -1,0 +1,13 @@
+# Patterns to ignore when building packages.
+# This supports shell glob matching, relative path matching, and
+# negation (prefixed with !). Only one pattern per line.
+
+# Packaged helm charts
+artifacts/
+
+# Version control files
+.git
+.gitignore
+
+# Scripts to help with building and deploying the chart
+Makefile
